@@ -44,9 +44,9 @@ $ ./a < a
 
 `_{ expr }` is the constructor of the template class `_<T>`.
 `_{ "name", type{}}` define the name of the region and the type of that region.
-When `_<T>` used as the second argument and beyond of the constructor of `_<T>{ ... }`, that expression deduced as calling to the constructer of `T<abstract_tag>`.
+When `_<T>` used as the second argument and beyond of the constructor of `_<T>{ ... }`, that expression deduced as calling to the constructer of `_<abstract_tag>`.
 This type only provides information of namespace several concrete types.
-If necessary the multiple hierarchies of `T<abstract_tag>` such as described below.
+If necessary use the multiple hierarchies of `_<abstract_tag>` such as described below.
 ```
 _{"A",
     _{"B",
